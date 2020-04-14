@@ -1,8 +1,9 @@
-HOST-KEYWORD,notion.so,Notion
-HOST-KEYWORD,notion.com,Notion
-HOST-KEYWORD,loggly.com,Notion
-HOST-KEYWORD,segment.com,Notion
-HOST-KEYWORD,intercom.io,Notion
-HOST-KEYWORD,amplitude.com,Notion
-HOST-KEYWORD,intercomcdn.com,Notion
-HOST-KEYWORD,amazonaws.com,Notion
+HOST-KEYWORD,notion,Notion
+HOST-SUFFIX,notion.so,Notion
+HOST-SUFFIX,notion.com,Notion
+HOST-SUFFIX,loggly.com,Notion
+HOST-SUFFIX,segment.com,Notion
+HOST-SUFFIX,intercom.io,Notion
+HOST-SUFFIX,amplitude.com,Notion
+HOST-SUFFIX,intercomcdn.com,Notion
+HOST-SUFFIX,amazonaws.com,Notion
