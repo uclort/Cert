@@ -1,7 +1,8 @@
-hostname = *.qidian.com, pangolin.snssdk.com, dxy.com, *.google.com.hk
+hostname = *.qidian.com, pangolin.snssdk.com, dxy.com, *.google.com.hk, duckduckgo.com
 
 ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v4\/client\/getsplashscreen url reject-200
 ^https?:\/\/pangolin.snssdk\.com\/api\/ad\/union\/sdk\/get_ads url reject-200
 ^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch url reject-200
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 ^https?:\/\/(www.)?(g|google)\.com\.hk url 302 https://www.google.com
+^https?:\/\/(www.)?(duckduckgo)\.com url 302 https://www.dogedoge.com/results
