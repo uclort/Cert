@@ -1,5 +1,5 @@
 /*
-WiFi_Proxy = script-path=https://raw.githubusercontent.com/tangke612/GFW/master/Surge/Scripts/wifi_proxy.js,type=event,event-name=network-changed,control-api=true
+WiFi_Proxy = script-path=https://cdn.jsdelivr.net/gh/uclort/Rules@master/wifi_proxy.js,type=event,event-name=network-changed,control-api=true
 */ 
 if ($environment.system === "iOS") {
   var wifiname = $network.wifi.ssid;
