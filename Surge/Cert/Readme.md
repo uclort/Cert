@@ -1,3 +1,19 @@
+```bash
+openssl genrsa -aes256 -passout pass:uclort -out uclort.pem 2048
+openssl req -x509 -new -nodes -passin pass:uclort -config cert.config -key uclort.pem -sha256 -extensions v3_ca -days 825 -out uclort-ca.pem
+openssl pkcs12 -export -out uclort-ca.p12 -in uclort-ca.pem -inkey uclort.pem -passin pass:uclort -passout pass:uclort
+```
+
+```bash
+openssl genrsa -aes256 -passout pass:uclort -out uclort.key 2048
+openssl req -x509 -new -nodes -passin pass:uclort -config cert.config -key uclort.key -sha256 -extensions v3_ca -days 825 -out uclort-ca.crt
+openssl pkcs12 -export -out uclort-ca.p12 -in uclort-ca.crt -inkey uclort.key -passin pass:uclort -passout pass:uclort
+```
+
+
+
+
+
 ### 密码：
 
 `uclort`
